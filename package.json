@@ -1,0 +1,14 @@
+{
+  "name": "opportunity-orbit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hackathon prototype for opportunity inbox triage and ranking.",
+  "dependencies": {
+    "@langchain/core": "^0.3.59",
+    "@langchain/google-genai": "^0.2.13"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check backend/config.js && node --check backend/pipeline.js && node --check backend/providers/huggingface.js && node --check backend/providers/gemini.js && node --check backend/orchestrators/langchain.js"
+  }
+}

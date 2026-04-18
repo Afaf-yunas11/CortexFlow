@@ -1,0 +1,44 @@
+# 🔐 Environment variables (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# 📦 Node dependencies
+node_modules/
+
+# 📄 Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🧠 Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 🗂️ Build / cache
+dist/
+build/
+.cache/
+.next/
+out/
+
+# 🖼️ OS files
+.DS_Store
+Thumbs.db
+
+# 🧪 Coverage / testing
+coverage/
+
+# 🛠️ Editor / IDE
+.vscode/
+.idea/
+
+# 🔑 Optional: local config overrides
+config.local.js
+
+# 🐳 Optional (if you later use docker)
+.env.docker
